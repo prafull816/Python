@@ -19,11 +19,11 @@ print(marks[1])
 
 
 student = ["Prafull",7875789496,"prafullwahatule@gmail.com"]
-print(student[0])
+ print(student[0])
 
 
 
-# List Slicing
+#   List Slicing
 """
 list_name[starting_idx : ending_idx] # ending idx is not included
 
