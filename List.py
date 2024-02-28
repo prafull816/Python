@@ -19,7 +19,7 @@ print(marks[1])
 
 
 student = ["Prafull",7875789496,"prafullwahatule@gmail.com"]
- print(student[0])
+print(student[0])
 
 
 
@@ -46,7 +46,7 @@ print(marks1[-3:-1])
 
 
 
-# List Methods
+#List Methods
 """
 list = [2,1,4]
 list.append(4) # adds one elements at the end) [ 2,1,4,4]
