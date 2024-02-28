@@ -2,7 +2,7 @@
 # print -1 if word not fund
 
 def check_for_line():
-    word = "python"  
+    word = "practice"  
     data = True
     line_no = 1
     with open("practice.txt","r") as f:
