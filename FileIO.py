@@ -52,3 +52,37 @@ f.close()
 f = open("txt.py", "a")
 f.write("\n After That i will learn java")
 f.close
+
+
+# with syntax
+
+""""
+with open("txt.py","r") as f:
+data - f.read()
+print data()
+
+
+"""
+
+with open("txt.py","r") as f:
+ data = f.read()
+ print(data)
+
+
+with open("txt.py", "w") as f:
+ f.write("new data")
+
+
+# Deleting a file 
+ """
+ using the os module 
+ module (like a code library) is a file written by another programmer that generally has a functions we can use.
+
+ import os
+ os.remove(filename)
+
+ """
+
+
+ import os
+os.remove()
